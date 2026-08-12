@@ -1,0 +1,110 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Initialise the backend Python project": [
+      {
+        "executionId": "0d87759e-32a8-41d0-8b1a-8d6c1e447056",
+        "chatSessionId": "sess_58934359-ed53-4803-a225-f63ac9b6101a",
+        "timestamp": 1786416572838
+      },
+      {
+        "executionId": "3dfb9dce-896d-4511-b726-457c367a02ac",
+        "chatSessionId": "sess_58934359-ed53-4803-a225-f63ac9b6101a",
+        "timestamp": 1786417786222
+      }
+    ],
+    "1.2 Initialise the frontend project": [
+      {
+        "executionId": "0d87759e-32a8-41d0-8b1a-8d6c1e447056",
+        "chatSessionId": "sess_58934359-ed53-4803-a225-f63ac9b6101a",
+        "timestamp": 1786416573047
+      },
+      {
+        "executionId": "3dfb9dce-896d-4511-b726-457c367a02ac",
+        "chatSessionId": "sess_58934359-ed53-4803-a225-f63ac9b6101a",
+        "timestamp": 1786417786545
+      }
+    ],
+    "1. Project scaffolding and configuration": [
+      {
+        "executionId": "3dfb9dce-896d-4511-b726-457c367a02ac",
+        "chatSessionId": "sess_58934359-ed53-4803-a225-f63ac9b6101a",
+        "timestamp": 1786417786636
+      }
+    ],
+    "2.1 Set up Alembic and create initial migration": [
+      {
+        "executionId": "f6be6eab-b5bc-46df-8cc2-3fe1e4f467bb",
+        "chatSessionId": "sess_58934359-ed53-4803-a225-f63ac9b6101a",
+        "timestamp": 1786417820212
+      },
+      {
+        "executionId": "f6be6eab-b5bc-46df-8cc2-3fe1e4f467bb",
+        "chatSessionId": "sess_58934359-ed53-4803-a225-f63ac9b6101a",
+        "timestamp": 1786418413059
+      }
+    ],
+    "2.2 Define all ORM models and generate migration": [
+      {
+        "executionId": "f6be6eab-b5bc-46df-8cc2-3fe1e4f467bb",
+        "chatSessionId": "sess_58934359-ed53-4803-a225-f63ac9b6101a",
+        "timestamp": 1786418419608
+      },
+      {
+        "executionId": "f6be6eab-b5bc-46df-8cc2-3fe1e4f467bb",
+        "chatSessionId": "sess_58934359-ed53-4803-a225-f63ac9b6101a",
+        "timestamp": 1786418926686
+      }
+    ],
+    "2. Database schema and migrations (Alembic)": [
+      {
+        "executionId": "f6be6eab-b5bc-46df-8cc2-3fe1e4f467bb",
+        "chatSessionId": "sess_58934359-ed53-4803-a225-f63ac9b6101a",
+        "timestamp": 1786418926794
+      }
+    ],
+    "3.1 Implement password hashing, JWT utilities, and auth schemas": [
+      {
+        "executionId": "c1084b20-34f9-471b-b7d7-f844d82bc0fb",
+        "chatSessionId": "sess_58934359-ed53-4803-a225-f63ac9b6101a",
+        "timestamp": 1786419398516
+      },
+      {
+        "executionId": "c1084b20-34f9-471b-b7d7-f844d82bc0fb",
+        "chatSessionId": "sess_58934359-ed53-4803-a225-f63ac9b6101a",
+        "timestamp": 1786419937944
+      }
+    ],
+    "3.2 Implement JWT blocklist check and `get_current_user` dependency": [
+      {
+        "executionId": "968814c8-8390-4321-ac14-d0bb314fb6e8",
+        "chatSessionId": "sess_58934359-ed53-4803-a225-f63ac9b6101a",
+        "timestamp": 1786419973979
+      },
+      {
+        "executionId": "968814c8-8390-4321-ac14-d0bb314fb6e8",
+        "chatSessionId": "sess_58934359-ed53-4803-a225-f63ac9b6101a",
+        "timestamp": 1786420628668
+      }
+    ],
+    "3.3 Implement login rate limiting": [
+      {
+        "executionId": "968814c8-8390-4321-ac14-d0bb314fb6e8",
+        "chatSessionId": "sess_58934359-ed53-4803-a225-f63ac9b6101a",
+        "timestamp": 1786419974121
+      },
+      {
+        "executionId": "968814c8-8390-4321-ac14-d0bb314fb6e8",
+        "chatSessionId": "sess_58934359-ed53-4803-a225-f63ac9b6101a",
+        "timestamp": 1786420628303
+      }
+    ],
+    "3.4 Implement auth router (`/api/v1/auth`)": [
+      {
+        "executionId": "e22ed5ad-b4d0-4d64-8759-3109bff43d9e",
+        "chatSessionId": "sess_58934359-ed53-4803-a225-f63ac9b6101a",
+        "timestamp": 1786420712295
+      }
+    ]
+  }
+}

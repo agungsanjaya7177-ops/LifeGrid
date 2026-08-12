@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lifegrid"
+version = "0.1.0"
+description = "LifeGrid - Personal life management dashboard"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi==0.109.0",
+    "uvicorn[standard]==0.27.0",
+    "sqlalchemy==2.0.25",
+    "psycopg2-binary==2.9.9",
+    "alembic==1.13.1",
+    "pydantic[email]==2.5.3",
+    "pydantic-settings==2.1.0",
+    "python-jose[cryptography]==3.3.0",
+    "bcrypt==4.1.2",
+    "apscheduler==3.10.4",
+    "hypothesis==6.92.1",
+    "pytest==7.4.4",
+    "pytest-asyncio==0.23.3",
+    "httpx==0.25.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black==23.12.1",
+    "flake8==6.1.0",
+    "mypy==1.8.0",
+]
+
+[tool.setuptools]
+packages = ["."]
+
+[tool.pytest.ini_options]
+testpaths = ["backend/tests"]
+asyncio_mode = "auto"
+python_files = "test_*.py *_test.py"
+
+[tool.black]
+line-length = 100
+target-version = ["py39"]
+
+[tool.mypy]
+python_version = "3.9"
+strict = true
